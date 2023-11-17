@@ -74,14 +74,14 @@ st.markdown(
     f"""
     <div class="container">
         <img class="logo-img" src="https://cdn-icons-png.flaticon.com/128/2593/2593635.png">
-        <div class="logo-text">Convert Code using Analyz!!!</div>
+        <div class="logo-text">Visualyz with Analyz!!!</div>
     </div>
     """,
     unsafe_allow_html=True
 )
 
 # Get prompt from user
-prompt = st.text_input("Please ask your question:")
+prompt = st.text_input("Ask away and get an easy to read representation of what you need!:")
 
 # On prompt submission, send request to OpenAI API
 if st.button("Ask Analyz"):
