@@ -95,9 +95,9 @@ if st.button("Ask Analyz"):
             Also, create a Mermaid.js diagram to visually represent the information. 
             The diagram should be formatted as code and contain at least 15 nodes. 
             It should be top to bottom orientation ie, 'graph TD;' should be the starting line of the graph.
-            Feel free to add as many nodes as necessary and cycles if needed. 
+            Feel free to add as many nodes as necessary and cycles if needed. Make use of labels and tooltips to make the diagram more readable.
                      
-            The diagram should be oriented from top to bottom and use labels extensively. 
+             
             After viewing the diagram, the student should have no further questions.
             Please start the Mermaid.js code with ‘MERMAID_START’ and end it with ‘MERMAID_END’. 
             The diagram should be the last part of the answer, not inserted in the middle."
